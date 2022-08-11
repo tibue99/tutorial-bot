@@ -1,8 +1,10 @@
 # Tutorial Bot
-Hier findest du den Source Code zu meinem Discord Bot Tutorial. Für diese Tutorialreihe benutze ich [Pycord](https://github.com/Pycord-Development/pycord). Das ist eine Python-Bibliothek, die auf [discord.py](https://github.com/Rapptz/discord.py) basiert und mit der wir auf die Discord API zugreifen.
+Hier findest du den Source Code zu meinem Discord Bot Tutorial. Für diese Tutorialreihe benutze ich [Pycord](https://github.com/Pycord-Development/pycord). 
+Das ist eine Python-Bibliothek, die auf [discord.py](https://github.com/Rapptz/discord.py) basiert und mit der wir auf die Discord API zugreifen.
 
-## Vorlagen
-- Im `Template` Ordner findest du eine Vorlage für die grundlegende Code-Struktur, die du für neue Bots benutzen kannst.
+## Info
+- Die [`main.py`](https://github.com/tibue99/tutorial-bot/blob/main/Template/main.py) Datei ist für die meisten Folgen des Tutorials gleich, deswegen enthalten die meisten Ordner nur die Cog-Datei.
+- Im [`Template`](https://github.com/tibue99/tutorial-bot/tree/main/Template) Ordner findest du die [`main.py`](https://github.com/tibue99/tutorial-bot/blob/main/Template/main.py) Datei und eine Vorlage für die grundlegende Code-Struktur des Bots.
 - In Tutorials werde ich oft mit dieser Vorlage beginnen, damit ich die Grundlagen nicht in jeder Folge wiederhole.
 
 ## Setup

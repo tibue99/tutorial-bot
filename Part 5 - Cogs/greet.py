@@ -1,3 +1,5 @@
+# server member intent must be enabled in main.py file
+
 import discord
 from discord.ext import commands
 from discord.commands import slash_command
