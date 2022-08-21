@@ -25,7 +25,9 @@ class Cooldown(commands.Cog):
     async def on_application_command_error(self, ctx, error):
         if isinstance(error, commands.CommandOnCooldown):
             seconds = ctx.command.get_cooldown_retry_after(ctx)
-            await ctx.respond(f"Du musst noch {self.convert_time(seconds)} warten", ephemeral=True)
+            final_time = self.convert_time(seconds)
+
+            await ctx.respond(f"Du musst noch {final_time} warten.", ephemeral=True)
 
 
 def setup(bot):
