@@ -13,7 +13,7 @@ class Base(commands.Cog):
     async def greet(self, ctx):
         await ctx.respond(f"Hey {ctx.author.mention}")
 
-    @commands.Cog.listener
+    @commands.Cog.listener()
     async def on_member_join(self, member):
         embed = discord.Embed(
             title="Willkommen",
