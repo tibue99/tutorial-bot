@@ -1,4 +1,4 @@
-# server member intent must be enabled in main.py file
+# Für dieses Beispiel muss der Server Member Intent aktiviert sein
 
 import discord
 from discord.ext import commands
