@@ -1,4 +1,12 @@
-# Für dieses Beispiel muss der Server Member Intent aktiviert sein
+# Für dieses Beispiel muss der Server Member Intent im Dev Portal und in der Main-Datei aktiviert sein
+#
+# intents = discord.Intents.default()
+# intents.members = True
+#
+# bot = discord.Bot(
+#     intents=intents,
+#     debug_guilds=[123456789],  # hier server id einfügen
+# )
 
 import discord
 from discord.ext import commands

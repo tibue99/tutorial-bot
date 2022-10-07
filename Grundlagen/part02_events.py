@@ -1,7 +1,7 @@
 import discord
 
 intents = discord.Intents.default()
-intents.message_content = True
+intents.message_content = True  # wird für msg.content benötigt
 
 bot = discord.Bot(intents=intents)
 

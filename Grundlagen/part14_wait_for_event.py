@@ -1,4 +1,12 @@
-# Für dieses Beispiel muss der Message Content Intent aktiviert sein
+# Für dieses Beispiel muss der Message Content Intent im Dev Portal und in der Main-Datei aktiviert sein
+#
+# intents = discord.Intents.default()
+# intents.message_content = True
+#
+# bot = discord.Bot(
+#     intents=intents,
+#     debug_guilds=[123456789],  # hier server id einfügen
+# )
 
 from discord.ext import commands
 from discord.commands import slash_command
