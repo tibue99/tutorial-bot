@@ -1,3 +1,17 @@
+# In der Main-Datei kann der Status direkt beim Start gesetzt werden
+#
+# intents = discord.Intents.default()
+# activity = discord.Activity(type=discord.ActivityType.watching, name="Coding Keks")
+# status = discord.Status.dnd
+
+# bot = discord.Bot(
+#     intents=intents,
+#     debug_guilds=[123456789],  # hier server id einfügen
+#     activity=activity,
+#     status=status
+# )
+
+
 import discord
 from discord.ext import commands
 from discord.commands import slash_command, Option
