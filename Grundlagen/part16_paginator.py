@@ -29,7 +29,7 @@ class Base(commands.Cog):
         for index, member in enumerate(members):
             description += f"`{index + 1}.` {member}\n"
 
-            if (index + 1) % 10 == 0:
+            if (index + 1) % 10 == 0 or index == len(members) - 1:
                 embed = discord.Embed(title="Member List", description=description, color=discord.Color.green())
                 if ctx.guild.icon:
                     embed.set_thumbnail(url=ctx.guild.icon.url)
