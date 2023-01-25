@@ -1,4 +1,5 @@
 import discord
+from discord.utils import basic_autocomplete
 from discord.ext import commands
 from discord.commands import slash_command, Option
 
@@ -18,7 +19,7 @@ class Base(commands.Cog):
 
     @slash_command()
     async def essen(
-            self, ctx, auswahl: Option(str, autocomplete=get_food)
+            self, ctx, auswahl: Option(str, autocomplete=basic_autocomplete(get_food))
     ):
         await ctx.respond(f"Du hast ✨ **{auswahl}** ✨ gewählt")
 
