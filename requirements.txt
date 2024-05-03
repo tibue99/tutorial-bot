@@ -2,3 +2,14 @@ py-cord
 python-dotenv
 aiosqlite
 ezcord
+
+# Requirements für einzelne Videos
+chat-exporter
+easy-pil
+scrapetube
+
+# Requirements für API-Videos
+aiohttp
+asyncpraw
+elevenlabs
+openai
