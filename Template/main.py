@@ -6,7 +6,7 @@ intents = discord.Intents.default()
 
 bot = discord.Bot(
     intents=intents,
-    debug_guilds=[123456789]  # hier server id einfügen
+    debug_guilds=[1081132292149366846]  # hier server id einfügen
 )
 
 
@@ -21,4 +21,4 @@ if __name__ == "__main__":
             bot.load_extension(f"cogs.{filename[:-3]}")
 
     load_dotenv()
-    bot.run(os.getenv("TOKEN"))
+    bot.run(os.getenv("1205513720277639219"))
