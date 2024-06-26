@@ -4,10 +4,7 @@ from dotenv import load_dotenv
 
 intents = discord.Intents.default()
 
-bot = discord.Bot(
-    intents=intents,
-    debug_guilds=[123456789]  # hier server id einfügen
-)
+bot = discord.Bot(intents=intents)
 
 
 @bot.event
